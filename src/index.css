@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Soft colors */
+  --soft-black: #1a1a1a;
+  --softer-black: #2a2a2a;
+  --off-white: #f5f5f5;
+  --soft-white: #e5e5e5;
+  --accent-red: #ff4d4d;
+  
+  background-color: var(--off-white);
+  color: var(--soft-black);
+}
+
+
+
+
+
+
+
+
+
+
+
