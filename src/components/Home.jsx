@@ -28,6 +28,10 @@ function Home() {
     };
   }, []);
 
+  const handleViewWork = () => {
+    window.open("https://github.com/Mandresy11", "_blank");
+  };
+
   return (
     <section id="home" className="hero">
       <div className="container home-content">
@@ -47,6 +51,7 @@ function Home() {
           <button
             ref={(el) => (textRefs.current[2] = el)}
             className="animate-on-scroll"
+            onClick={handleViewWork}
           >
             View My Work
           </button>

@@ -29,7 +29,6 @@
   font-size: 2rem;
   margin-bottom: 20px;
   background: var(--gradient);
-  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -149,7 +148,6 @@
 
 .contact-value:hover {
   background: var(--gradient);
-  -webkit-background-clip: text;
   color: transparent;
 }
 

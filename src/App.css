@@ -24,8 +24,9 @@ body {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0  auto;
+  margin: 0 auto;
   padding: 0 20px;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -109,17 +110,25 @@ main {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 }
 
+
 .section-title {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  background: var(--gradient);
-  color: transparent;
-  display: inline-block;
   text-align: center;
-  color: var(--soft-black); /* Couleur de police */
+  width: 40%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: fadeInUp2 0.7s ease forwards;
+  visibility: visible;
+  background: var(--gradient);
+font-size: 2.5rem;
 }
 
 @media (max-width: 768px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
   .container {
     padding: 0 15px;
   }
@@ -127,11 +136,17 @@ main {
   .section {
     padding: 10px 0;
     min-height: 70vh;
-  }.nav-links {
+  }
+
+  .nav-links {
     display: none;
   }
   
   .section-title {
     font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    transform: translateX(-100%);
+    visibility: visible; 
   }
 }
