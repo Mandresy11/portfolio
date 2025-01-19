@@ -135,7 +135,7 @@
 }
 
 .contact-value:hover {
-  color: #3b82f6;
+  transform: scale(20px);
 }
 
 
@@ -148,7 +148,6 @@
 
 .contact-value:hover {
   background: var(--gradient);
-  color: transparent;
 }
 
 

@@ -120,7 +120,7 @@ main {
   animation: fadeInUp2 0.7s ease forwards;
   visibility: visible;
   background: var(--gradient);
-font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 @media (max-width: 768px) {
