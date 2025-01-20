@@ -37,7 +37,7 @@ function Projects() {
     {
       id: 4,
       title: "Project 4",
-      description: "Create an admin dashboard with React just for fun",
+      description: "Mobile application for consulting doctors online",
       image: docteur,
       technologies: ["React-native", "nodejs", "express", "mongodb"],
       githubLink: "https://github.com/Mandresy11/Docteurs"
